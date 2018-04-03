@@ -1,0 +1,54 @@
+<svg width="46" height="62" viewBox="0 0 46 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>e-reader</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-733 -1733)">
+<g id="e-reader">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(735.386 1786.82)" fill="#9AD7FF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(735.386 1782.94)" fill="#C2E7FF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(734.435 1783.03)" fill="#4EB9FF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(733 1733)" fill="#FFC0D5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(743.046 1733)" fill="#FF755C"/>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path5_fill" transform="translate(752.877 1755.85)" fill="#FFC0D5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path6_fill" transform="translate(750.581 1750.11)" fill="#FFC0D5"/>
+</g>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path7_fill" transform="translate(767.301 1770.6)" fill="#FFCE47"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path8_fill" transform="translate(767.301 1733)" fill="#FFCE47"/>
+</g>
+</g>
+<g id="Vector">
+<use xlink:href="#path9_fill" transform="translate(733 1781.51)" fill="#FF4181"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 3.7694e-07 1.4352L 3.7694e-07 6.65883C 0.151731 6.7138 0.314481 6.74541 0.484496 6.74541L 39.9521 6.74541L 39.9521 1.4352L 19.976 2.95639e-08L 3.7694e-07 1.4352Z"/>
+<path id="path1_fill" d="M 39.9522 2.95639e-08L 0.484618 2.95639e-08C 0.314602 2.95639e-08 0.151852 0.0316051 4.43459e-07 0.0865816L 4.43459e-07 5.3102L 39.9522 5.3102L 39.9522 2.95639e-08Z"/>
+<path id="path2_fill" d="M 5.31008 5.22362C 5.31008 2.61562 3.42938 0.448168 0.950465 -4.13895e-07C 0.398036 0.200046 -3.62158e-07 0.729468 -3.62158e-07 1.34862L -3.62158e-07 9.09862C -3.62158e-07 9.71777 0.398157 10.2472 0.950465 10.4472C 3.42938 9.99896 5.31008 7.83162 5.31008 5.22362Z"/>
+<path id="path3_fill" d="M 2.1528 0C 0.963906 0 2.21729e-08 0.963906 2.21729e-08 2.1528L 2.21729e-08 51.3797L 10.0463 49.9445L 15.787 24.9723L 10.0463 0L 2.1528 0Z"/>
+<path id="path4_fill" d="M 32.2917 2.87041L 24.2547 0L 6.35624e-07 0L 6.35624e-07 49.9444L 30.8565 49.9444L 35.1621 37.6015L 35.1621 10.9075L 32.2917 2.87041Z"/>
+<path id="path5_fill" d="M 14.0649 2.87041L 1.4352 2.87041C 0.642644 2.87041 3.39985e-07 2.22776 3.39985e-07 1.4352C 3.39985e-07 0.642644 0.642644 7.68662e-07 1.4352 7.68662e-07L 14.0649 7.68662e-07C 14.8575 7.68662e-07 15.5001 0.642644 15.5001 1.4352C 15.5001 2.22776 14.8574 2.87041 14.0649 2.87041Z"/>
+<path id="path6_fill" d="M 18.6575 2.87041L 1.4352 2.87041C 0.642644 2.87041 6.50406e-07 2.22776 6.50406e-07 1.4352C 6.50406e-07 0.642644 0.642644 -7.98225e-07 1.4352 -7.98225e-07L 18.6574 -7.98225e-07C 19.45 -7.98225e-07 20.0926 0.642644 20.0926 1.4352C 20.0926 2.22776 19.45 2.87041 18.6575 2.87041Z"/>
+<path id="path7_fill" d="M 10.9074 12.3425L -1.56689e-06 10.9074L 10.9074 1.50776e-06L 10.9074 12.3425Z"/>
+<path id="path8_fill" d="M 10.9074 0L 10.9074 10.9074L -1.56689e-06 0L 10.9074 0Z"/>
+<path id="path9_fill" d="M 43.7732 10.6204L 2.87041 10.6204L 2.87041 2.87041L 43.7732 2.87041C 44.5658 2.87041 45.2084 2.22776 45.2084 1.4352C 45.2084 0.642645 44.5658 1.27125e-06 43.7732 1.27125e-06L 2.87041 1.27125e-06C 1.28771 1.27125e-06 2.21729e-08 1.28759 2.21729e-08 2.87041L 2.21729e-08 10.6204C 2.21729e-08 12.2031 1.28759 13.4908 2.87041 13.4908L 43.7732 13.4908C 44.5658 13.4908 45.2084 12.8482 45.2084 12.0556C 45.2084 11.2632 44.5656 10.6204 43.7732 10.6204Z"/>
+</defs>
+</svg>

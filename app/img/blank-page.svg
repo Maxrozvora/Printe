@@ -1,0 +1,29 @@
+<svg width="53" height="62" viewBox="0 0 53 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>blank-page</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(77 -1733)">
+<g id="blank-page">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(-60.2513 1749.75)" fill="#FF4181"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(-65.8342 1744.17)" fill="#FF755C"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(-71.4171 1738.58)" fill="#FF9356"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(-77 1733)" fill="#FFCE47"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(-52.0237 1733)" fill="#FFEBB4"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 35.8484 0L 0 0L 0 45.2512L 35.8484 45.2512L 35.8484 0Z"/>
+<path id="path1_fill" d="M 35.8484 0L 0 0L 0 45.2512L 35.8484 45.2512L 35.8484 0Z"/>
+<path id="path2_fill" d="M 35.8484 45.2512L 9.23872e-08 45.2512L 9.23872e-08 0L 24.9763 0L 35.8484 10.872L 35.8484 45.2512Z"/>
+<path id="path3_fill" d="M -7.68661e-07 0L -7.68661e-07 10.872L 10.872 10.872L -7.68661e-07 0Z"/>
+</defs>
+</svg>

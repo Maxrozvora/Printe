@@ -1,0 +1,22 @@
+<svg width="20" height="14" viewBox="0 0 20 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>feather icon</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-870 1823)">
+<g id="feather icon">
+<g id="menu">
+<g id="Shape">
+<use xlink:href="#path0_stroke" transform="translate(871 -1816)" fill="#3A4047"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path0_stroke" transform="translate(871 -1822)" fill="#3A4047"/>
+</g>
+<g id="Shape">
+<use xlink:href="#path0_stroke" transform="translate(871 -1810)" fill="#3A4047"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 -1C -0.552285 -1 -1 -0.552285 -1 0C -1 0.552285 -0.552285 1 0 1L 0 -1ZM 18 1C 18.5523 1 19 0.552285 19 0C 19 -0.552285 18.5523 -1 18 -1L 18 1ZM 0 1L 18 1L 18 -1L 0 -1L 0 1Z"/>
+</defs>
+</svg>

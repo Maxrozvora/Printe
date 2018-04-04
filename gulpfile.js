@@ -66,4 +66,35 @@ gulp.task('watch', ['styles', 'js', 'browser-sync'], function() {
 	gulp.watch('app/*.html', browsersync.reload)
 });
 
+gulp.task('sass', function() {
+	return gulp.src('app/sass/**/*.sass')
+	.pipe(sass({outputStyle: 'expand'}).on("error", notify.onError()))
+	.pipe(rename({suffix: '.min', prefix : ''}))
+	.pipe(autoprefixer(['last 15 versions']))
+	//.pipe(cleanCSS()) // Опционально, закомментировать при отладке
+	.pipe(gulp.dest('app/css'))	
+});
+
+gulp.task('build', ['sass', 'js'], function() {
+	var buildFiles = gulp.src([
+		'app/*.html',		
+	]).pipe(gulp.dest('dist'));
+
+	var buildImg = gulp.src([
+		'app/img/**/*',
+	]).pipe(gulp.dest('dist/img'))
+
+	var buildCss = gulp.src([
+		'app/css/main.min.css',
+	]).pipe(gulp.dest('dist/css'));
+
+	var buildJs = gulp.src([
+		'app/js/scripts.min.js',
+	]).pipe(gulp.dest('dist/js'));
+
+	var buildFont = gulp.src([
+		'app/fonts/**/*',
+	]).pipe(gulp.dest('dist/fonts'));
+})
+
 gulp.task('default', ['watch']);

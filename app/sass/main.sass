@@ -11,8 +11,11 @@
 
 a
 	color: #3A4047
+	transition: all 0.2s ease
+	&:hover
+			color: $main
 
-button
+button	
 	&:focus
 		outline: none
 
@@ -28,7 +31,7 @@ body
 	font-size: 14px
 	min-width: 320px
 	position: relative
-	line-height: 16px
+	line-height: 1.1
 	font-family: $default-font
 	overflow-x: hidden
 	color: $accent
@@ -54,7 +57,8 @@ b, strong
 	font-weight: bold
 
 
-
+.wrapper
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05)
 
 // Info section
 
@@ -80,8 +84,7 @@ b, strong
 			font-weight: normal
 
 .cabinet
-	display: flex
-	margin-top: 8px
+	display: flex	
 	justify-content: flex-end
 	&__ico
 		width: 12px
@@ -108,7 +111,7 @@ b, strong
 		position: absolute
 		top: 55px		
 		right: -10px
-		z-index: 99
+		z-index: 99		
 		&__kyivstar
 			margin: 20px 0
 		&__img
@@ -129,7 +132,7 @@ b, strong
 				z-index: -1
 				background-color: #ffffff
 				box-shadow: -1px 1px 2px rgba(0,0,0,.05)
-				transform: rotate(45deg)
+				transform: rotate(45deg)		
 	&__ico
 		margin-right: 18px
 		height: 20px
@@ -150,15 +153,20 @@ b, strong
 		width: 4px
 		height: 8px		
 		transform: rotate(90deg)
+	.tooltip-footer
+		top: -195px
+		
+		
 
 .shopping
 	display: flex
 	align-items: center
-	position: relative
+	
 	&__cart
 		background: transparent
 		border: none
 		cursor: pointer
+		position: relative
 	&__img
 		height: 44px
 		width: auto
@@ -172,8 +180,12 @@ b, strong
 		cursor: pointer
 		width: 30px
 		height: 30px
+		line-height: 30px
 		font-weight: bold
 		color: #ffffff
+		&:hover
+			color: #ffffff
+			text-decoration: none
 
 // navbar styles
 .nav
@@ -181,13 +193,14 @@ b, strong
 .navbar
 	display: flex
 	justify-content: space-between
+	align-items: center
 	width: 100%
 	&__link
 		font-size: 16px
 		font-weight: bold
 		text-transform: uppercase
 		position: relative
-		padding: 16px 42px 16px 34px		
+		padding: 16px 0	
 		display: block
 		white-space: nowrap		  
 		&:hover
@@ -197,15 +210,52 @@ b, strong
 				content: ''
 				display: block
 				position: absolute
-				top: 0				
-				height: 1px
-				width: 100%
-				background-color: $main
+				top: -1px	
+				left: -30%
+				right: -30%			
+				height: 1px				
+				background-color: $main				
 		&:first-child
 			padding-left: 0
 		&:last-child
 			padding-right: 0
 
+.navbar-toggle
+	display: none
+	&__btn		
+		border-top: 1px solid $main
+		border-bottom: none
+		border-left: none
+		border-right: none
+		background-color: transparent
+		padding: 12px		
+		&:hover:active
+			background-color: $main
+	
+
+.navbar-colapse
+	text-align: center
+	transition: all 0.3s ease-in-out
+	&__link
+		font-size: 14px
+		font-weight: bold
+		text-transform: uppercase
+		position: relative
+		padding: 16px 0	
+		display: block
+		&:hover
+			color: $main
+			text-decoration: none
+			&:before
+				content: ''
+				display: block
+				position: absolute
+				top: -1px	
+				left: -30%
+				right: -30%			
+				height: 1px				
+				background-color: $main	
+	
 .title
 	background-image: url('../img/print.jpg')
 	background-position: top center 
@@ -216,9 +266,9 @@ b, strong
 	align-items: center
 	text-align: center	
 	&__main-text
-		font-size: 57px
-		white-space: nowrap	
+		font-size: 56px    
 		padding-bottom: 8px	
+		line-height: 56px
 	&__deliver
 		font-size: 24px
 		margin-bottom: 27px
@@ -301,14 +351,26 @@ b, strong
 	text-align: center
 	padding: 30px 0
 	margin-top: 20px
+	position: relative
+	transition: all 0.4s ease-in-out
 	&:hover
 		box-shadow: 0px 14px 24px rgba(0, 0, 0, 0.05), 0px -1px 0px $main	
+	&:hover &__text
+		color: $main
+		text-decoration: underline
 	&__time
 		display: block
 		margin-bottom: 14px
 		color: #BEC7D1
+	&__link
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
 	&__text
 		font-size: 16px
+		transition: all 0.4s ease-in-out
 
 .btn-block	
 	text-align: center
@@ -328,4 +390,44 @@ b, strong
 		margin-bottom: 15px
 		white-space: nowrap
 		text-decoration: underline
+
+.logo
+	&__right
+		display: block
+
+.footer-information
+	display: flex
+	flex-direction: column
+
+.link
+	display: inline-block
+	display: flex
+	flex-direction: column
+	align-items: flex-end
+	&__contact
+		margin-top: 20px
+		margin-bottom: 30px
+
+.callback
+	position: fixed
+	bottom: 25px
+	right: -100px
+	height: 88px
+	width: 88px
+	font-size: 12px
+	border-radius: 50%
+	cursor: pointer
+	background-color: $main
+	color: #ffffff
+	display: flex
+	align-items: center
+	flex-direction: column
+	justify-content: center
+	text-align: center
+	transition: all 0.3s ease
+	img
+		width: 20px
+		height: auto
+.active
+	right: 25px
 @import "media" // Always at the end
